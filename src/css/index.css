@@ -29,6 +29,7 @@
 body {
   margin: 0;
   font: var(--body2-regular);
+  padding-inline: 1rem;
 }
 
 a {
