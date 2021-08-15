@@ -1,4 +1,43 @@
+@import './header.css';
+
+:root {
+  --karlaFont: 'Karla', sans-serif;
+  --neutonFont: 'Neuton', serif;
+  --poppins: 'Poppins', sans-serif;
+  --primary: #0000ff;
+  --white: #fffffe;
+  --grey: #e0e0e0;
+  --secondary: #172326;
+  --tertiary: #a13d63;
+  --background-1: #f3f3f3;
+  --background-2: #242629;
+  --button-background: #7f5af0;
+  --headline1: 700 6rem/6.625rem var(--neutonFont);
+  --headline2: 700 4rem/4.75rem var(--neutonFont);
+  --headline3: 700 2rem/2.5rem var(--neutonFont);
+  --button: 700 1.125rem/1.6875rem var(--karlaFont);
+  --caption: 400 0.6875rem/1rem var(--karlaFont);
+  --headline5: 700 1.25rem/1.649999976158142rem var(--karlaFont);
+  --headline4-bold: 700 1.5rem/2.21875rem var(--karlaFont);
+  --headline4-regular: 400 1.5rem/2.21875rem var(--karlaFont);
+  --body2-regular: 400 1.1875rem/1.6875rem var(--karlaFont);
+  --body2-bold: 700 1.1875rem/1.6875rem var(--karlaFont);
+  --body1-bold: 700 1.875rem/2.5999999046325684rem var(--karlaFont);
+  --body1-regular: 400 1.875rem/2.5999999046325684rem var(--karlaFont);
+}
+
 body {
   margin: 0;
-  font-family: sans-serif;
+  font: var(--body2-regular);
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding-inline: 10.625rem;
+  }
 }
