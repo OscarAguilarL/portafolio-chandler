@@ -1,0 +1,13 @@
+.hero p {
+  font: var(--headline4-regular);
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-block-start: 8rem;
+  }
+
+  .hero p {
+    font: var(--body1-regular);
+  }
+}

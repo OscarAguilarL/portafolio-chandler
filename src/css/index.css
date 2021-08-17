@@ -1,4 +1,6 @@
 @import './header.css';
+@import './button.css';
+@import './hero.css';
 
 :root {
   --karlaFont: 'Karla', sans-serif;
