@@ -1,6 +1,8 @@
 @import './header.css';
 @import './button.css';
 @import './hero.css';
+@import './main.css';
+@import './projects.css';
 
 :root {
   --karlaFont: 'Karla', sans-serif;
@@ -32,6 +34,7 @@ body {
   margin: 0;
   font: var(--body2-regular);
   padding-inline: 1rem;
+  scroll-behavior: smooth;
 }
 
 a {

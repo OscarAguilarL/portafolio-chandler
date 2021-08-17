@@ -1,0 +1,12 @@
+.main {
+  padding-block-start: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.main .caption {
+  font: var(--caption);
+  color: var(--secondary);
+  margin: 0;
+}

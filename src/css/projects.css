@@ -1,0 +1,33 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.project,
+.project .project-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project .project-desc h3 {
+  font: var(--headline3);
+  margin: 0;
+}
+
+.project .project-desc h4 {
+  font: var(--headline4-regular);
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+  .projects-container {
+    gap: 8rem;
+  }
+
+  .project .project-desc h3 {
+    font: var(--headline1);
+  }
+}
