@@ -8,6 +8,7 @@
   border: none;
   border-radius: 4px;
   font: var(--button);
+  text-align: center;
   padding-block: 0.75rem;
   padding-inline: 1.5rem;
   background: none;
