@@ -34,9 +34,9 @@
       </div>
       <aside class="header-links">
         <nav class="links-container">
-          <a class="is-active" href="#">Acerca de</a>
-          <a href="#projects">Proyectos</a>
-          <a href="#contacto">Contacto</a>
+          <a data-scroll-spy="about" class="is-active" href="#">Acerca de</a>
+          <a data-scroll-spy="projects" href="#projects">Proyectos</a>
+          <a data-scroll-spy="contacto" href="#contacto">Contacto</a>
         </nav>
       </aside>
       <div class="header-menu">
@@ -52,7 +52,7 @@
       </div>
     </header>
 
-    <div class="about" id="about">
+    <div class="about" id="about" data-scroll-spy>
       <div class="hero">
         <p>
           Hola, soy <strong>Chandler Bing</strong>, un Frontend Developer que
@@ -70,7 +70,7 @@
       </div>
     </div>
 
-    <main id="projects" class="main">
+    <main id="projects" class="main" data-scroll-spy>
       <p class="caption">PROYECTOS</p>
       <section class="projects-container">
         <article class="project">
@@ -111,7 +111,7 @@
       </section>
     </main>
 
-    <footer class="footer" id="contacto">
+    <footer class="footer" id="contacto" data-scroll-spy>
       <p class="caption">CONTACTO</p>
       <p class="links">
         <a href="mailto:chandler@gmail.com">Correo Electrónico</a>

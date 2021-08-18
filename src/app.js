@@ -1,5 +1,7 @@
-import hamburguerMenu from './js/hamburguer-menu.js';
+import hamburguerMenu from './js/hamburguer-menu.js'
+import { scrollSpy } from './js/scroll-spy.js'
 
-document.addEventListener('DOMContentLoaded', (e) => {
-  hamburguerMenu('#header-btn', '.header-links', '.links-container a');
-});
+document.addEventListener('DOMContentLoaded', () => {
+  hamburguerMenu('#header-btn', '.header-links', '.links-container a')
+  scrollSpy()
+})
