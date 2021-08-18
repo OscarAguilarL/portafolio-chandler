@@ -1,0 +1,12 @@
+.footer {
+  padding-block-start: 8rem;
+}
+
+.footer .links {
+  font: var(--body1-regular);
+}
+
+.footer a {
+  text-decoration: underline;
+  color: var(--primary);
+}

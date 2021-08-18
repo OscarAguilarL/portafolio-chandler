@@ -3,6 +3,7 @@
 @import './hero.css';
 @import './main.css';
 @import './projects.css';
+@import './footer.css';
 
 :root {
   --karlaFont: 'Karla', sans-serif;
@@ -28,13 +29,13 @@
   --body2-bold: 700 1.1875rem/1.6875rem var(--karlaFont);
   --body1-bold: 700 1.875rem/2.5999999046325684rem var(--karlaFont);
   --body1-regular: 400 1.875rem/2.5999999046325684rem var(--karlaFont);
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   font: var(--body2-regular);
   padding-inline: 1rem;
-  scroll-behavior: smooth;
 }
 
 a {

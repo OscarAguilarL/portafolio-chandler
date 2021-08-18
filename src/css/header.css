@@ -28,7 +28,7 @@
   left: 0;
   right: 0;
   inline-size: 100%;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   background: var(--white);
   transform: translate(0, -100%);
 }
