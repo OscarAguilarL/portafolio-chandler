@@ -1,0 +1,21 @@
+.project-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* gap: 2.5rem; */
+}
+
+.project-img img {
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.images-hero {
+  font: var(--body2-regular);
+}
+
+@media screen and (min-width: 768px) {
+  .images-hero {
+    font: var(--body1-regular);
+  }
+}

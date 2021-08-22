@@ -5,6 +5,7 @@
 @import './projects.css';
 @import './footer.css';
 @import './project-hero.css';
+@import './project-images.css';
 
 :root {
   --karlaFont: 'Karla', sans-serif;
