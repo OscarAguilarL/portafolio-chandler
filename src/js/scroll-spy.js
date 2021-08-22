@@ -3,13 +3,10 @@ const d = document
 const handler = (entries) => {
   entries.forEach((entry) => {
     const id = entry.target.getAttribute('id')
-    console.log(entry);
     if (entry.isIntersecting) {
       d.querySelector(`a[data-scroll-spy="${id}"]`).classList.add('is-active')
     } else {
-      d.querySelector(`a[data-scroll-spy="${id}"]`).classList.remove(
-        'is-active'
-      )
+      d.querySelector(`a[data-scroll-spy="${id}"]`).classList.remove('is-active')
     }
   })
 }
