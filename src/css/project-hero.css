@@ -1,0 +1,38 @@
+.project-hero * {
+  padding: 0;
+  margin: 0;
+}
+
+.project-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-block: 4rem;
+}
+
+.project-hero .project-title {
+  font: var(--headline3);
+}
+
+.project-hero .project-desc {
+  font: var(--body2-regular);
+}
+
+.project-hero .sections .article-sub {
+  font: var(--body2-regular);
+  color: var(--primary);
+}
+
+@media screen and (min-width: 768px) {
+  .project-hero .project-title {
+    font: var(--headline1);
+  }
+
+  .project-hero .project-desc {
+    font: var(--body1-regular);
+  }
+
+  .project-hero .sections .article-sub {
+    font: var(--headline4-regular);
+  }
+}

@@ -4,6 +4,7 @@
 @import './main.css';
 @import './projects.css';
 @import './footer.css';
+@import './project-hero.css';
 
 :root {
   --karlaFont: 'Karla', sans-serif;
